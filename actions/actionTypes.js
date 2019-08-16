@@ -1,0 +1,10 @@
+export const PERFORM_SEARCH = "PERFORM_SEARCH";
+export const SEARCH_SUCCESS = "SEARCH_SUCCESS";
+export const SEARCH_ERROR = "SEARCH_ERROR";
+export const NEW_SEARCH = "NEW_SEARCH";
+export const SHOW_GIPHY = "SHOW_GIPHY";
+export const HIDE_GIPHY = "HIDE_GIPHY";
+
+export const GET_RANDOM_GIPHY = "GET_RANDOM_GIPHY";
+export const SHOW_RANDOM_GIPHY = "SHOW_RANDOM_GIPHY";
+export const SHOW_FULL_RANDOM_GIPHY = "SHOW_FULL_RANDOM_GIPHY";
