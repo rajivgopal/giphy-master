@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://rajivgopal.github.io/giphy-master",
   "scripts": {
+    "build": "react-scripts build",
     "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +31,7 @@
     "babel-regenerator-runtime": "^6.5.0",
     "classnames": "^2.2.6",
     "connected-react-router": "^6.5.2",
+    "gh-pages": "^2.1.1",
     "history": "^4.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
